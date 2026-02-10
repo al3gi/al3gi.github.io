@@ -1,0 +1,53 @@
+/* google fonts need to be put here starting with '@import' */
+
+
+
+/*
+css reset - this sets ALL elements to have zero padding and margin, 
+and to display in the more logical border-box style
+*/
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	border: 1px solid black;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav ul li a {
+	background-color: orange;
+
+	text-decoration: none;
+}
+
+#current {
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: .5s;
+}
+
+#current:hover {
+    width: 20rem;
+}
+
+@media screen and (min-width: 769px) {
+  nav ul  {
+	flex-direction: row;
+  }
+}
