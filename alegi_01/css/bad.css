@@ -21,9 +21,18 @@ nav ul li {
 }
 
 nav ul li a {
-	background-color: orange;
+	background-color: white;
 
 	text-decoration: none;
+}
+
+div {
+    background-color: black;
+    width: 2;
+    height: 1;
+    padding: 1;
+    font-size: 1;
+    margin: 1rem;
 }
 
 #one {

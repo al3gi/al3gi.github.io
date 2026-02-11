@@ -7,7 +7,7 @@
 }
 
 nav {
-	border: 1px solid white;
+	border: 1px solid black;
 }
 
 nav ul {
@@ -21,60 +21,68 @@ nav ul li {
 }
 
 nav ul li a {
-	background-color: lightcoral;
-    color: white;
+	background-color: aquamarine;
+    color: black;
 	text-decoration: none;
 }
 
+div {
+    background-color: black;
+    width: 10rem;
+    height: 5rem;
+    padding: 1.5rem;
+    font-size: 1rem;
+    margin: 1rem;
+}
 #one {
     transition-property: width;
-    transition-duration: 1s;
+    transition-duration: .5s;
     transition-timing-function: ease-in;
     transition-delay: .5s;
 }
 
 #one:hover {
     width: 5rem;
-    background-color: lightcoral;
+    background-color: aquamarine;
     text-decoration: underline;
 }
 
 #two {
     transition-property: width;
-    transition-duration: 1s;
+    transition-duration: .5s;
     transition-timing-function: ease-in;
     transition-delay: .5s;
 }
 
 #two:hover {
     width: 5rem;
-    background-color: lightcoral;
+    background-color: aquamarine;
     text-decoration: underline;
 }
 
 #three {
     transition-property: width;
-    transition-duration: 1s;
+    transition-duration: .5s;
     transition-timing-function: ease-in;
     transition-delay: .5s;
 }
 
 #three:hover {
     width: 5rem;
-    background-color: lightcoral;
+    background-color: aquamarine;
     text-decoration: underline;
 }
 
 #four {
     transition-property: width;
-    transition-duration: 1s;
+    transition-duration: .5s;
     transition-timing-function: ease-in;
     transition-delay: .5s;
 }
 
 #four:hover {
     width: 5rem;
-    background-color: lightcoral;
+    background-color: aquamarine;
     text-decoration: underline;
 }
 
