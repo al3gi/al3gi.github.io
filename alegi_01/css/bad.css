@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	border: 1px solid black;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav ul li a {
+	background-color: orange;
+
+	text-decoration: none;
+}
+
+#one {
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: .5s;
+}
+
+#one:hover {
+    width: 50rem;
+}
+
+#two {
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: .5s;
+}
+
+#two:hover {
+    width: 50rem;
+}
+
+#three {
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: .5s;
+}
+
+#three:hover {
+    width: 50rem;
+}
+
+#four {
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: .5s;
+}
+
+#four:hover {
+    width: 50rem;
+}
+
+@media screen and (min-width: 769px) {
+  nav ul  {
+	flex-direction: row;
+  }
+}
