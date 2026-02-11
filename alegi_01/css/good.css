@@ -14,10 +14,11 @@ nav ul {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+    align-items: center;
 }
 
 nav ul li {
-	list-style: none;
+    list-style: none;
 }
 
 nav ul li a {
@@ -29,7 +30,7 @@ nav ul li a {
 div {
     background-color: black;
     width: 10rem;
-    height: 5rem;
+    height: 3rem;
     padding: 1.5rem;
     font-size: 1rem;
     margin: 1rem;
